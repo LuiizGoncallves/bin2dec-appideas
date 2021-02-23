@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <h1>Convert binary to decimal</h1>
+    <div class="container-color">
+      <div class="col-md-12">
+        <form role="form" method="get">
+          <div class="form-group">
+            <label>Binary</label>
+            <input (input)="binaryToDecimal($event.target.value)" type="text" class="form-control" placeholder="Enter the Binary" maxlength="8">
+            <br/>
+            <label>Decimal</label>
+            <input type="text" class="form-control" placeholder="Decimal" [value]="decimalConverted" disabled>
+          </div>
+          <button class="btn btn-primary">Convert</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
