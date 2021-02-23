@@ -35,4 +35,4 @@ constraints:
 
 ## Host project
 
-[Bin2Dec - Vercel](https://bin2dec-psi.vercel.app/)
+[Bin2Dec - Vercel](https://bin2dec-appideas.vercel.app)
